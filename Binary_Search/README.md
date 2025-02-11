@@ -12,5 +12,5 @@
             - If the guess is equal than the item, so the script found the item.
             - If the guess is higher than the item, so high will receive middle - 1. This means that the script will ignore the middle to the end of the list.
             - If the guess is lower than the item, so low will receive middle + 1. This means that the script will ignore the begginning to the middle of the list.
-        - If the script didn't find the item given, will return `None`.
+        - If the script didn't find the given item, will return `None`.
     
