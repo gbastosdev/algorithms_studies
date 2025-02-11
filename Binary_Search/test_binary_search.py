@@ -6,7 +6,8 @@ def test_binary_search():
     random_int = random.randint(1,1000)
     random_numbers = sorted(random.sample(range(1, 1000), 128))
     execution_time = timeit.timeit(lambda: binary_search(list=random_numbers, item=random_int), number=1)
-    assert execution_time < math.log10(len(random_numbers)) # Asserting that execution time is less then log(n).
+    assert execution_time <= math.log10(len(random_numbers)) # Asserting that execution time is less or equal then log(n). 
+    #Example of execution time: 2.100015990436077e-06 <= 2.1072099696478683. 
 
 
 
