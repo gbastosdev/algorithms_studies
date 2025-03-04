@@ -1,4 +1,4 @@
-## Explanation
+# Explanation
 -  Binary Search is basically a algorithm that searches for an occurrence of an item, on a list. 
     - Think on this example: You have to find a name on a agenda and you're using a simple search for it -> O(n). If you're searching for a person called Adit, this is the first person on your list. As this is the best scenario possible, this will be 0(1).
     - Now, if you're serching for Zayan, this will take long time to you reach the final page of the agenda. On Big O notation, this will be O(n), because you had to pass through all of the list.
