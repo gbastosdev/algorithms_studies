@@ -1,0 +1,12 @@
+def isAnagram(s: str, t: str) -> bool:
+    if len(s) != len(t):
+        return False
+    return sorted(s) == sorted(t)
+
+if __name__ == "__main__":
+    s = "anagram"
+    t = "nagaram"
+    print(isAnagram(None, s, t))  # Output: True
+    s = "rat"
+    t = "car"
+    print(isAnagram(None, s, t))  # Output: False
